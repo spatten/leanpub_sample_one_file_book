@@ -1,4 +1,4 @@
-[title: Leanpub Sample Book; subtitle: The One File Book Version; by: Peter Armstrong; doctype: book]
+[title: Leanpub Sample One File Book; subtitle: The Version With All The Content In The Manifest File; by: Peter Armstrong; doctype: book]
 ** Preface
 [preface free published preface]
 This is the Leanpub sample book for a one file book.  It is intended for people who want to write their entire book in one file.  It works really well with Emacs outline mode, which is invoked with M-x outline-mode in Emacs.
