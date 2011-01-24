@@ -9,7 +9,9 @@ This is a preface.  The first entry, "preface", in the line above indicates the 
 
 There is a second "preface" here.  This indicates that this chapter is a preface, and should be numbered with Roman numerals (i, ii, iii) in the page numbers in the PDF that is produced.
 ** Leanpub Book Format
-A chapter can have content and can have sections.  In the manifest file, a chapter has two asterisks (**) at the beginning of a line; a section has three asterisks (***) at the beginning of the line.  One thing a chapter currently can't have is footnotes though, so be careful.  (Yes, we're fixing that!  When it's fixed this document will be updated.)
+A chapter can have content and can have sections.  In the manifest file, a chapter has two asterisks (\*\*) at the beginning of a line; a section has three asterisks (\*\*\*) at the beginning of the line.
+*** Known Isssues
+A chapter currently can't have footnotes, which means you can't put links in chapters since those get converted into footnotes.  (Yes, we're fixing that!  When it's fixed this document will be updated.)
 *** Code Samples
 Chapters contain sections, which is where the bulk of your content should be.  A section contains text, and can include images and code samples.
 
@@ -31,7 +33,7 @@ That's it!
 *** Links Become Footnotes
 We support Markdown syntax for links, as well as normal HTML links.  Both of these are converted into functioning footnotes in the PDF.  Here's an example of a link to [Leanpub](http://leanpub.com).
 *** Markdown Issues in One File Books
-We use * for Parts, ** for Chapters, *** for Sections and **** for nested Sections.  Markdown can support using * for *bold* text.  If you want to start a line with bold text you need to use <b>the bold HTML tag</b> instead.  For unordered lists, use - instead of *.
+We use * for Parts, \*\* for Chapters, \*\*\* for Sections and \*\*\*\* for nested Sections.  Markdown can support using * for *bold* text.  If you want to start a line with bold text you need to use <b>the bold HTML tag</b> instead.  For unordered lists, use - instead of \*.  Whenever you have a * with anything other than whitespace after it, you need to escape the * with a \*.  To be safe, just escape the asterisk with a backslash (\\) whenever you want a literal asterisk (\*) in your book.
 ** Chapter Two
 *** Section One
 Here's chapter 2, section 1.
