@@ -5,7 +5,13 @@ This is the Leanpub sample book for a one file book.  It is intended for people 
 
 This file is called a "manifest file", which is why it's called manifest.leanpub.  Every Leanpub book has one manifest file.  A manifest file can either contain all the content (like this file) or can just contain links to the different content files (like the multiple file version of this sample book).  In the one file version, like this file, you write in a syntax called Markdown.  In the multiple file version you write in either Markdown or HTML.
 
-This is a preface.  The first entry, "preface", in the line above indicates the slug of this entry.  (A "slug" is the part of the url in http://leanpub.com/yourbookname/slug.)
+The book and all of its chapters each have a metadata line, which is a line surrounded by [square brackets] and which contains either key/value properties or keywords.  The book metadata properties are title, subtitle and by; these are parsed as keywords.
+
+Every section of a book has metadata.
+
+This is a preface.
+
+The first entry, "preface", in the metadata line in this section (only visible in the raw manifest.leanpub file first line of this file ( indicates the slug of this entry.  (A "slug" is the part of the url in http://leanpub.com/yourbookname/slug.)
 
 There is a second "preface" here.  This indicates that this chapter is a preface, and should be numbered with Roman numerals (i, ii, iii) in the page numbers in the PDF that is produced.
 ** Leanpub Book Format
