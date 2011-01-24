@@ -39,7 +39,7 @@ That's it!
 *** Links Become Footnotes
 We support Markdown syntax for links, as well as normal HTML links.  Both of these are converted into functioning footnotes in the PDF.  Here's an example of a link to [Leanpub](http://leanpub.com).
 *** Markdown Issues in One File Books
-We use * for Parts, \*\* for Chapters, \*\*\* for Sections and \*\*\*\* for nested Sections.  Markdown can support using * for *bold* text.  If you want to start a line with bold text you need to use <b>the bold HTML tag</b> instead.  For unordered lists, use - instead of \*.  Whenever you have a * with anything other than whitespace after it, you need to escape the * with a \*.  To be safe, just escape the asterisk with a backslash (\\) whenever you want a literal asterisk (\*) in your book.
+We use * for Parts, \*\* for Chapters, \*\*\* for Sections and \*\*\*\* for nested Sections.  Markdown can support using * for *emphasized (italic)* text and \*\* for **strong (bold)** text.  If you want to start a line with bold text you need to use <b>the bold HTML tag</b> instead.  For unordered lists, use - instead of \*.  Whenever you have a * with anything other than whitespace after it, you need to escape the * with a \*.  To be safe, just escape the asterisk with a backslash (\\) whenever you want a literal asterisk (\*) in your book.
 ** Chapter Two
 *** Section One
 Here's chapter 2, section 1.
