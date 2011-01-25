@@ -51,6 +51,6 @@ Here's a sub-section.
 Here's another sub-section.
 *** Section Three
 This is a section with a sidebar -- foo
-<p class="sidebar">
+<aside>
 I'm inside a sidebar!
-</p>
+</aside>
