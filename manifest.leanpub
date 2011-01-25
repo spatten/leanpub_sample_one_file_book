@@ -50,6 +50,7 @@ Here's a sub-section.
 **** Sub-Section Two
 Here's another sub-section.
 *** Section Three
+[section3]
 This is a section with a sidebar -- foo
 <aside>
 I'm inside a sidebar!
