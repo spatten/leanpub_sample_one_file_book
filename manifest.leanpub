@@ -54,7 +54,9 @@ Here's another sub-section.
 This is a section with a sidebar -- foo
 
 % I'm in a sidebar
+%
 % Here I am, the second line
+%
 % more sidebar action!
 
 okay, done the sidebar
@@ -62,8 +64,11 @@ okay, done the sidebar
 Here's a blockquote
 
 > hiya
+>
 > I'm quoting
+>
 > wait for it...
+>
 > in a block!
 
 done block quoting.
