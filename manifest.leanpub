@@ -53,11 +53,11 @@ Here's another sub-section.
 [section3]
 This is a section with a sidebar -- foo
 
-< I'm in a sidebar
-<
-< Here I am, the second line
-<
-< more sidebar action!
+; I'm in a sidebar
+;
+; Here I am, the second line
+;
+; more sidebar action!
 
 okay, done the sidebar
 
