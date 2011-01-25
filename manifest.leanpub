@@ -49,4 +49,9 @@ Here's chapter 2, section 2.  This section has sub-sections.
 Here's a sub-section.
 **** Sub-Section Two
 Here's another sub-section.
+*** Section Three
+This is a section with a sidebar
+<sidebar>
+I wonder what this will look like?
+</sidebar>
 
