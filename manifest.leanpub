@@ -53,5 +53,5 @@ Here's another sub-section.
 [section3]
 This is a section with a sidebar -- foo
 <aside>
-I'm inside a sidebar!
+<p>I'm inside a sidebar!</p>
 </aside>
