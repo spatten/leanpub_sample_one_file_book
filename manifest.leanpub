@@ -54,6 +54,7 @@ Here's another sub-section.
 This is a section with a sidebar -- foo
 
 > this is using
+>
 > greater thans
 
 okay, done the sidebar
@@ -61,7 +62,9 @@ okay, done the sidebar
 Here's a blockquote!!!
 
 $ i like
+$
 $ money
+$
 $ yay
 
 done block quoting.
